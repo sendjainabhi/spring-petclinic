@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tap-demo-spring-petclinic"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tap-demo"
 spec:
   type: service
   lifecycle: experimental
