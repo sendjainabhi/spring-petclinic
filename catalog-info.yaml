@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tap-demo-spring-petclinic
+  description: Tanzu Java Web App Spring pet clinic
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tap-demo-spring-petclinic"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
